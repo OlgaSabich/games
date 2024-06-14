@@ -1,12 +1,14 @@
 @font-face {
     font-family: "friday";
     src: url("/games/Friday13.ttf");
+    font-size: 1.5rem;
   }
 
 body {
     overflow: hidden;
-    height: 600px;
-    background: radial-gradient(at top, #000000, #492323);
+    height: 10px;
+   /* background: radial-gradient(at top, #000000, #492323); */
+    background-image: url(/games/aokigahara-forest-dark-style\ \(1\).jpg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;   
@@ -25,4 +27,6 @@ button {
     font-optical-sizing: auto;
     font-style: normal;
     border: none;
+    font-size: 150px;
+    color: rgb(150, 21, 21);
 }
