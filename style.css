@@ -8,7 +8,7 @@ body {
     overflow: hidden;
     height: 700px;
    /* background: radial-gradient(at top, #000000, #492323); */
-    background-image: url(/games/aokigahara-forest-dark-style\ \(1\).jpg);
+    background-image: url(/games/aokigahara-forest-dark-style1-500.webp);
     display: flex;
     flex-direction: column;
     justify-content: space-between;   
@@ -29,7 +29,13 @@ button {
     border: none;
     font-size: 150px;
     color: rgb(150, 21, 21);
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    text-shadow: 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    transition: text-shadow 1.5s ease;
+}
+
+button:hover {
+    text-shadow: 1px 1px 2px red, 0 0 5em rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0);
+    transition: text-shadow 1s ease;
 }
 
 @media (max-width: 610px) {
