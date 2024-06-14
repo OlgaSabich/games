@@ -19,9 +19,9 @@ body {
     margin-top: 200px;
 }
 
-
 button {
     background-color: transparent;
+    cursor: pointer;
     text-decoration: none;
     font-family: "friday";
     font-optical-sizing: auto;
