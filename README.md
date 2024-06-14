@@ -1,1 +1,1 @@
-[# games](https://olgasabich.github.io/games/games.html)
+https://olgasabich.github.io/games/games.html
