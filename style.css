@@ -1,16 +1,20 @@
-
-
-
 body {
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(219, 223, 220);
     color: aliceblue;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;   
 }
 
 button {
     width: 300px;
+    background-color: rgb(219, 139, 226);
+    color: black;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    border-radius: 15px;
 }
-
