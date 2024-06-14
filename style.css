@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "friday";
+    src: url("/games/Friday13.ttf");
+  }
+
+body {
+    overflow: hidden;
+    height: 600px;
+    background: radial-gradient(at top, #000000, #492323);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+.main {
+    margin-top: 40px;
+}
+
+
+button {
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "friday";
+    font-optical-sizing: auto;
+    font-style: normal;
+    border: none;
+}
