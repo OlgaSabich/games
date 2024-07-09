@@ -15,13 +15,13 @@ const links = ['https://impulsegamestudios.itch.io/sms-99',
 'https://store.steampowered.com/app/2590250/The_Windows_Are_Gone/',
 'https://daniel-buckley.itch.io/the-crypt-terror',
 'https://store.steampowered.com/app/2824230/last_seen_online/?l=russian',
-'https://elliottdahle.itch.io/the-man-in-the-park,
-'https://elliottdahle.itch.io/the-man-in-the-park-2,
-'https://chiyeon.itch.io/it-fishes-at-night,
-'https://hadriandev.itch.io/rinse-and-repeat,
-'https://danthai.itch.io/first-winter,
-'https://joetheitchpro.itch.io/go-to-bed,
-'https://apish-box-games.itch.io/lamp-post];
+'https://elliottdahle.itch.io/the-man-in-the-park',
+'https://elliottdahle.itch.io/the-man-in-the-park-2',
+'https://chiyeon.itch.io/it-fishes-at-night',
+'https://hadriandev.itch.io/rinse-and-repeat',
+'https://danthai.itch.io/first-winter',
+'https://joetheitchpro.itch.io/go-to-bed',
+'https://apish-box-games.itch.io/lamp-post'];
 
 document.getElementById('Random').addEventListener('click', function() {  
 window.open(links[Math.floor(Math.random() * links.length)], '_blank'); });
