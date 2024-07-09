@@ -21,7 +21,28 @@ const links = ['https://impulsegamestudios.itch.io/sms-99',
 'https://hadriandev.itch.io/rinse-and-repeat',
 'https://danthai.itch.io/first-winter',
 'https://joetheitchpro.itch.io/go-to-bed',
-'https://apish-box-games.itch.io/lamp-post'];
+'https://apish-box-games.itch.io/lamp-post'
+'https://ferryliquid.itch.io/crowded-followed',
+'https://forameuss.itch.io/death-trips',
+'https://mikeklubnika.itch.io/core',
+'https://mrsinger.itch.io/the-wailing-of-the-forest',
+'https://store.steampowered.com/app/2250090/Missing_Hiker/',
+'https://andrground.itch.io/elevated-dread',
+'https://gamejolt.com/games/readjusted3game/523997',
+'https://jonnys-games.itch.io/slide-in-the-woods',
+'https://kenforest.itch.io/moth-house',
+'https://chiyeon.itch.io/it-fishes-at-night',
+'https://noxusgamesstudio.itch.io/thesmilingman',
+'https://jordiboi.itch.io/theshoppinglist',
+'https://jordiboi.itch.io/brokenthrough',
+'https://jordiboi.itch.io/the-final-pin',
+'https://gamejolt.com/games/SlenderMan/503541',
+'https://ookii-tsuki.itch.io/teke-teke-moonlit-dread',
+'https://danieloschepkov.itch.io/the-floor-is-wet',
+'https://famouspizza23.itch.io/lakefront-restaurant',
+'https://scary-cube.itch.io/the-windows-are-gone',
+'https://mymadnessworks.itch.io/lalaisbound',
+'https://mikeklubnika.itch.io/unsorted-horror',];
 
 document.getElementById('Random').addEventListener('click', function() {  
 window.open(links[Math.floor(Math.random() * links.length)], '_blank'); });
