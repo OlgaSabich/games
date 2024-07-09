@@ -42,7 +42,7 @@ const links = ['https://impulsegamestudios.itch.io/sms-99',
 'https://famouspizza23.itch.io/lakefront-restaurant',
 'https://scary-cube.itch.io/the-windows-are-gone',
 'https://mymadnessworks.itch.io/lalaisbound',
-'https://mikeklubnika.itch.io/unsorted-horror',];
+'https://mikeklubnika.itch.io/unsorted-horror'];
 
 document.getElementById('Random').addEventListener('click', function() {  
 window.open(links[Math.floor(Math.random() * links.length)], '_blank'); });
