@@ -21,7 +21,7 @@ const links = ['https://impulsegamestudios.itch.io/sms-99',
 'https://hadriandev.itch.io/rinse-and-repeat',
 'https://danthai.itch.io/first-winter',
 'https://joetheitchpro.itch.io/go-to-bed',
-'https://apish-box-games.itch.io/lamp-post'
+'https://apish-box-games.itch.io/lamp-post',
 'https://ferryliquid.itch.io/crowded-followed',
 'https://forameuss.itch.io/death-trips',
 'https://mikeklubnika.itch.io/core',
